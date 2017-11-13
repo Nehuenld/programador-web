@@ -6,4 +6,18 @@ El objeto camnion Debera validar con cada auto ingresado si esta por debajo
  del peso o si ya no lo puede agregar
 Ademas de almacenar los autos debe tener la posibilidad de validar 
 que no tenga patentes repetidas y que me devuelva todas las patentes que tiene a bordo.*/
+var auto = [patente, peso, pesoMaximoCarga]
+function camionMosquito(patente, pesoMaximoCarga, marca, modelo, cantidadAutos) {
+    this.patente = patente
+    this.pesoMaximoCarga = pesoMaximoCarga
+    this.marca = marca
+    this.modelo = modelo
+    this.cantidadAutos = cantidadAutos
 
+}
+
+var Toyota = new camionMosquito('NLD146', '200000', 'Iveco', "ivecam", "16")
+var toyota = prompt("ingrese cantidad de autos que quiere transportar")
+
+
+console.log(Toyota)
