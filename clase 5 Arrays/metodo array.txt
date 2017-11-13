@@ -1,0 +1,74 @@
+Métodos Array
+
+toString
+
+El método toString() retorna una cadena de caracteres representando el array especificado y sus elementos.
+
+Sintaxis
+
+arr.toString()
+
+Push
+
+Transforma un array añadiendole los elementos proporcionados y devolviendo la nueva longitud del array.
+
+El método push depende de la propiedad length para decidir dónde empezar a insertar los valores dados. Si el valor de la propiedad length no puede ser convertido en numérico, el índice 0 es usado. Esto permite la posibilidad de que la propiedad length sea inexistente, y en este caso length será creado.
+
+Síntaxis
+
+array.push(element1, ..., elementN)
+
+Join
+
+El método join() une todos los elementos de un arreglo en una cadena.
+
+Sintaxis
+
+str = arr.join([separador = ','])
+Sort
+
+El metodo sort() ordena los elementos de un array localmente y retorna el array. El ordenamiento no es necesariamente estable. El orden de ordenamiento por omisión es acorde a la posición valor del string en Unicode.
+
+Sintaxis
+
+arr.sort([compareFunction])
+
+Pop
+
+El método pop() elimina el último elemento de un array y lo devuelve.
+
+Sintaxis
+
+arr.pop()
+
+Reverse
+
+El metodo reverse() coloca al revés (inversamente) una matriz. El primer elemento pasa a ser el ultimo y el ultimo pasa a ser el primero.
+
+Sintaxis
+
+arr.reverse()
+
+Concat
+
+El método concat() retorna un vector compuesto por los elementos del vector en el que fue invocado y los elementos del/de los vector/es y/o valores pasados como argumentos.
+
+Sintaxis
+
+var nuevo_vector = viejo_vector.concat(valor1[, valor2[, ...[, valorN]]])
+concat(), se emplea para concatenar los elementos de varios arrays:
+
+Slice
+
+El medoto slice() devuelve una copia de una parte del array dentro de un nuevo array. Devuelve una sección de una matriz.
+
+Sintaxis
+
+arrayObj.slice(start, [end])
+Splice
+
+El método splice () agrega / elimina los elementos de una matriz y devuelve el elemento (s) que se retiró.
+
+Sintaxis
+
+array .splice( index , howmany , item1 ,....., itemX )
