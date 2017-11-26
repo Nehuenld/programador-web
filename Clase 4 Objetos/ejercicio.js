@@ -104,7 +104,7 @@ console.log(miAuto.precio)
 
 var next_property = "color"
 miAuto[next_property] = "rojo" 
-console.log(miAuto.color)
+console.log(miAuto.color) 
 
 for (var i in miAuto) {
     console.log(i, ' es igual a ', miAuto[i])

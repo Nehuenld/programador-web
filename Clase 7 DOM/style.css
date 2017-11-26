@@ -1,3 +1,10 @@
-section.caja-noticia h2{
-    background-color: blue;
+.bg-grey {
+  color: white;
+  background-color: blue
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: green;
 }
