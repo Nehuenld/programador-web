@@ -1,4 +1,4 @@
-var noticia = document.getElementById("noticia");
+var noticiaNueva = document.getElementById("noticia");
 
 var titulo = document.createElement("h1");
 var nombreTitulo = document.createTextNode("Aras San Juan");
@@ -11,10 +11,10 @@ imagen.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6OYeYJtX20b
 
 titulo.appendChild(nombreTitulo);
 parrafo.appendChild(contenido);
-noticia.appendChild(titulo);
-noticia.appendChild(parrafo);
-noticia.appendChild(imagen);
+noticiaNueva.appendChild(titulo);
+noticiaNueva.appendChild(parrafo);
+noticiaNueva.appendChild(imagen);
 
-console.log(noticia.innerHTML)
+noticiaNueva.parentNode.removeChild(noticia);
 
 
