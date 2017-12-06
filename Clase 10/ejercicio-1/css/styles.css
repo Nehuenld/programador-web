@@ -1,0 +1,84 @@
+/* Base styles */
+
+body {
+	font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	color: #ac341c;
+	margin-bottom: 50px;
+	margin-top: 0;
+	font-size: 80px;
+	text-align: center;
+	line-height: 70px;
+    padding-top: 20px;
+
+}
+
+@font-face {
+  font-family: 'LosSimpsons';
+  src: url('../fonts/Simpsonfont.ttf'); /* IE9 Compat Modes */
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.subtitle {
+	font-size: 30px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.align-center {
+	text-align: center;
+}
+
+
+main {
+    background-color: #ffe426;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul li p {
+    max-width: 70%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+ul li.pod {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%; 
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 300px;
+}
+
+ul li img {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   max-width: 25%;
+}
+
+ul li h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.simpsons-font {
+    font-family: "LosSimpsons";
+}

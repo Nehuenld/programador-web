@@ -1,0 +1,12 @@
+*{
+    margin: 15px;
+}
+form{
+    background: blueviolet;
+}
+#app{
+    padding: 20px;
+}
+form li{
+    text-decoration: none;
+}
