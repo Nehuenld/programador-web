@@ -1,0 +1,46 @@
+*{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vinA6WEVf23_qPmMnDwbKIXtVDpZ4uwVFLjn9yAx3D91rk5-);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+}
+h3{
+    padding-top: 150px;
+    margin: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+h4{
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+i.twitter{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 50px;
+	background: cyan;
+    border: 2px solid cyan;
+    text-align: center;
+}
+.twitter :hover{
+  	transform: scale(1.2);
+
+}
