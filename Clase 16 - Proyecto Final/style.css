@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.card {
+  width: 146px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+  color: #212121;
+}
+
+.info {
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+  letter-spacing: 0.4px;
+  background-color: #212121;
+  color: #fff;
+}
+
+form {
+  margin: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 4px;
+  font-size: 16px;
+}
