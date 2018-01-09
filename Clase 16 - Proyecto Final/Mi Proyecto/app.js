@@ -31,16 +31,23 @@ $('form').on('submit', function (event) {
         url: `https://dog.ceo/api/breed/${breedSelected}/images`,
         success: function (data) {
             var breedImage = data.message
-            var $container = $('div.container')
+            
             console.log(breedImage)
+
             for (let i = 0; i < breedImage.length; i++) {
                 var images = breedImage[i]
 
-                var img = `<img src="${images}"</img>`
+                var img = `<img src="${images}">`
                 
-                $container.append(img)
+                $(".container").append(img)
+            
             }
-        }
+        event.$(".container").val("")
+        },
+        
+        error: function (error) {
+            console.error(error)
+        },
     })
 })
 
