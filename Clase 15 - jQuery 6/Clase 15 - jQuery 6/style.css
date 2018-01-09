@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0.2em;
+}
+
+input {
+  width: 60%;
+  padding: 0.6em;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+}
+
+.box {
+  width: 240px;
+  margin: 0.4em;
+  padding: 0.6em;
+  display: inline-block;
+  border: 1px solid #212121;
+}

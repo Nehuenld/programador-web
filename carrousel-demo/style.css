@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel-container {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 40px;
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+}
+
+.slick-slide {
+  justify-content: center;
+  align-content: center;
+}

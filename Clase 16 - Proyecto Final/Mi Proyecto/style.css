@@ -1,4 +1,25 @@
-
-body{
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
 background-image: url("https://media.istockphoto.com/photos/teal-and-white-dog-paw-prints-tile-pattern-repeat-background-picture-id490747804") !important;
+}
+
+img{
+    width: 246px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}
+nav{
+    background-color: rgb(55, 61, 68);
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
 }

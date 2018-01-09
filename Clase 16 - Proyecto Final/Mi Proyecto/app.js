@@ -25,29 +25,35 @@ $.ajax({
 
 $('form').on('submit', function (event) {
         event.preventDefault()
+    $(".carousel-container").empty()
         var breedSelected = $('select').val()
-
     $.ajax({
         url: `https://dog.ceo/api/breed/${breedSelected}/images`,
         success: function (data) {
             var breedImage = data.message
-            
             console.log(breedImage)
 
             for (let i = 0; i < breedImage.length; i++) {
                 var images = breedImage[i]
 
-                var img = `<img src="${images}">`
+                 var img = `<img src="${images}">`
+                var img = ` 
+                            <div>
+                                <img src="${images}" >
+                            </div>
+                        `
+                            
+                $(".carousel-container").append(img)
                 
-                $(".container").append(img)
-            
             }
-        event.$(".container").val("")
-        },
-        
-        error: function (error) {
-            console.error(error)
-        },
+            $('.carousel-container').slick({
+                slidesToShow: 1,
+                slidesToScroll: 3,
+                centerMode: true,
+                centerPadding: '60px',
+                adaptiveHeight: true,
+            })
+         },
     })
 })
 
